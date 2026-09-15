@@ -1,0 +1,10 @@
+.hero-mark-oto {
+  color: var(--ink);
+  right: 2vw;
+  bottom: 7vw;
+  font-size: clamp(180px, 31vw, 500px);
+}
+
+@media (max-width: 650px) {
+  .hero-mark-oto { right: 12px; bottom: 55px; font-size: 205px; }
+}
